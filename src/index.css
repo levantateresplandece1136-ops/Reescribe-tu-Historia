@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom palette of warm, hopeful colors */
+  --color-hope-50: #fefcfb;
+  --color-hope-100: #fcf5f1;
+  --color-hope-200: #f7e6dc;
+  --color-hope-300: #f0ccb9;
+  --color-hope-400: #e4a382;
+  --color-hope-500: #d67c52;
+  --color-hope-600: #c56337;
+  --color-hope-700: #a44d27;
+  --color-hope-800: #843c1f;
+  --color-hope-900: #6a311a;
+}
+
+/* Base resets or utility classes if needed */
+body {
+  font-family: var(--font-sans);
+  background-color: #faf8f6;
+  color: #2c2522;
+}
+
+/* Custom fade-in and smooth scroll classes */
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism for card effects */
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(228, 163, 130, 0.2);
+}
+

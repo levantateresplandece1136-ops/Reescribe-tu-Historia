@@ -1,0 +1,6 @@
+{
+  "name": "Reescribe tu historia",
+  "description": "Una experiencia interactiva y reflexiva para jóvenes basada en Proverbios 3:5-7, diseñada para reinterpretar circunstancias difíciles desde una perspectiva bíblica, psicológica y científica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
